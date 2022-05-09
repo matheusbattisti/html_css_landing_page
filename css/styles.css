@@ -113,7 +113,9 @@
 .benefits {
   display: flex;
   justify-content: space-around;
-  padding: 2em;
+  padding: 4em;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .benefit {
@@ -155,6 +157,7 @@
   align-items: center;
   justify-content: space-around;
   color: var(--text-color);
+  margin-bottom: 3em;
 }
 
 #address,
@@ -169,6 +172,7 @@
 #address i {
   color: var(--primary);
   font-size: 4em;
+  margin-right: 0.5em;
 }
 
 #address-details {
@@ -178,4 +182,57 @@
 
 #about-location h3 {
   color: var(--primary);
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#about-location p {
+  line-height: 1.5em;
+}
+
+/* Event details container */
+#details {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5%;
+  margin-bottom: 4em;
+}
+
+.detail img {
+  width: 50%;
+}
+
+.detail h3 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#detail-1 h3 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.detail-description {
+  width: 100%;
+  padding-left: 4em;
+}
+
+#detail-3 .detail-description {
+  justify-self: flex-start;
+}
+
+.detail-description ul li {
+  margin-bottom: 0.4em;
+}
+
+.detail-description ul li:last-child {
+  font-weight: bold;
 }
