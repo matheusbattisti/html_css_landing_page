@@ -13,11 +13,14 @@
 }
 
 /* Event form */
-#event-subscription {
+.section-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../img/hrz-5.jpg");
   background-position: center;
   background-size: cover;
+}
+
+#event-subscription {
   height: 85vh;
   display: flex;
   justify-content: space-around;
@@ -97,4 +100,82 @@
 
 #subscription-form input[type="submit"]:hover {
   opacity: 1;
+}
+
+/* Benefits section */
+#key-benefits h2 {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 2em;
+  font-weight: 500;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.benefit {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 20%;
+  color: var(--text-tertiary);
+}
+
+.benefit .benefit-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 1em;
+}
+
+#benefit-1 {
+  background-image: url("../img/sqr-1.jpg");
+}
+
+#benefit-2 {
+  background-image: url("../img/sqr-2.jpg");
+}
+
+#benefit-3 {
+  background-image: url("../img/sqr-3.jpg");
+}
+
+/* Event location */
+#location {
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/hrz-5.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--text-color);
+}
+
+#address,
+#about-location {
+  max-width: 30%;
+}
+
+#address {
+  display: flex;
+}
+
+#address i {
+  color: var(--primary);
+  font-size: 4em;
+}
+
+#address-details {
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#about-location h3 {
+  color: var(--primary);
 }

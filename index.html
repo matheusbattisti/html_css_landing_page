@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InDecor</title>
+    <!-- Text font -->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,9 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <header id="event-subscription">
+    <header id="event-subscription" class="section-bg">
       <div id="disclaimer">
         <h2>InDecor</h2>
         <p class="about-event">
@@ -54,38 +60,40 @@
     </header>
     <section id="key-benefits">
       <h2>O que você vai aprender:</h2>
-      <div class="benefit">
-        <img src="img/sqr-1.jpg" alt="Descrição da imagem" />
-        <p>
-          Alguma coisa muito legal, que vai fazer a diferença na vida do
-          participante.
-        </p>
-      </div>
-      <div class="benefit">
-        <img src="img/sqr-2.jpg" alt="Descrição da imagem 2" />
-        <p>
-          Alguma coisa muito legal, que vai fazer a diferença na vida do
-          participante.
-        </p>
-      </div>
-      <div class="benefit">
-        <img src="img/sqr-3.jpg" alt="Descrição da imagem 3" />
-        <p>
-          Alguma coisa muito legal, que vai fazer a diferença na vida do
-          participante.
-        </p>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legal, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
       </div>
     </section>
-    <section id="location">
-      <div class="address">
-        <p>ícone location</p>
-        <div class="address-details">
+    <section id="location" class="section-bg">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
           <p>Rua do evento, 1333</p>
           <p>Bairro</p>
           <p>Abertura: 14h</p>
         </div>
       </div>
-      <div class="about-location">
+      <div id="about-location">
         <h3>Local de destaque</h3>
         <p>
           O evento será realizado em um local prestigiado pelos amantes de
